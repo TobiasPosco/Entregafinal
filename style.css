@@ -62,13 +62,21 @@ color: #403833;
 
 
  /* hero */
-.hero1 {
+.hero {
   display: flex;
   flex-direction: row;
-  gap: 80px;
-   align-items: center;
+  align-items: center;
   justify-content: start; 
   padding: 30px;
+  gap: 80px;
+}
+
+.hero1{
+  display: flex;
+  flex-direction: column;
+   align-items: center;
+  justify-content: center; 
+  gap: 50px;
 }
 
 .hero2 {
@@ -78,19 +86,19 @@ color: #403833;
   gap: 40px;
 }
 
+.hero2 img{
+  width: 400px;
+  height: 400px;
+}
+
 .hero3 {
   display: flex;
   flex-direction: column;
 }
 
-.hero4{
-  display: flex;
-  gap: 100px;
-  flex-direction: column;
-}
 
-.hero5{
-  width: 200px;
+.hero4 img{
+  width: 700px;
   height: 330px;
 }
 
@@ -221,14 +229,14 @@ color: #403833;
   display: flex;
   padding: 100px;
   flex-direction: row;
-  gap: 300px;
+  gap: 250px;
 }
 
-.about1{
+.about-texto{
   display: flex;
   align-items: start; 
   flex-direction: column;
-  gap: 50px;
+  gap: 45px;
 }
 
 .button2{
@@ -250,12 +258,12 @@ color: #403833;
   color: #403833; 
 }
 
-.about2 img{
+.about-img img{
   width: 250px;
   height: 400px;
 }
 
-.about2{
+.about-img{
   display: flex;
   flex-direction: row;
   gap: 25%;
@@ -285,14 +293,14 @@ color: #403833;
 
 
 
-   /* contacto */
-.from{
+/* contacto */
+.from-texto{
   display: flex;
   align-items: center;
   justify-content: center;
 }
 
-.comentario-comentario{
+.container-comentario{
   display: flex;
   align-items: center;
   flex-direction: row;
@@ -309,9 +317,12 @@ color: #403833;
   align-items: start;
   gap: 25px;
   border-radius: 20px;
+  border: 2px solid black;
+  border-radius: 20px;
+  padding: 20px; 
 }
 
-.v{
+.img-comentario{
   display: flex;
   align-items: center;
   justify-content: center;
@@ -326,95 +337,13 @@ color: #403833;
   gap: 10px;
 }
 
-.comentario-dos{
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: start;
-  gap: 25px;
-}
-
-.j{
-  display: flex;
-  align-items: center;
-  justify-content: start;
-  flex-direction: row;
-}
-
-.foto-dos{
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  flex-direction: row;
-  gap: 10px;
-}
-
-.comentario-tres{
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: start;
-  gap: 25px;
-}
-
-.m{
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  flex-direction: row;
-}
 
 
 
-.contacto {  display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
-  grid-template-rows: 1fr 1fr 1fr;
-  grid-auto-rows: 1fr;
-  gap: 0px 0px;
-  grid-auto-flow: row;
-  grid-template-areas:
-    "v j m"
-    ". . ."
-    ". . .";
-}
-
- .v { grid-area: v; }
-
-.j { grid-area: j; }
-
-.m { grid-area: m; }
+/* contact */
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
- /* contact */
-
-.foto-tres{
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  flex-direction: row;
-  gap: 10px;
-}
-
-.contactos{
+.container-contactos{
   display: flex;
   flex-direction: row;
   align-items: center;
@@ -422,7 +351,7 @@ color: #403833;
   padding: 100px;
 }
 
-.contact{
+.contact-texto{
   display: flex;
   align-items: start;
   flex-direction: column;
@@ -449,7 +378,7 @@ color: #403833;
 
  /* footer */
 
-.footer{
+.footer-container{
   display: flex;
   align-items: center;
   justify-content: center;
@@ -459,14 +388,15 @@ color: #403833;
   
 }   
 
-.footer-iconos{
+.footer-caja{
   display: flex;
   align-items: center;
   flex-direction: column;
   gap: 20px;
 }
 
-.icono-footer{
+
+.footer-icono{
   display: flex;
   justify-content: center;
   align-items: center;
@@ -474,7 +404,7 @@ color: #403833;
   gap: 10px;
 }
 
-.iconos-footer{
+.footer{
   display: flex;
   justify-content: center;
  align-items: center;
@@ -482,7 +412,7 @@ color: #403833;
   gap: 10px;
 }
 
-.icono{
+.inst-face{
   display: flex;
   align-items: center;
   flex-direction: row;
@@ -490,14 +420,7 @@ color: #403833;
 }
 
 
-.footer-section{
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  flex-direction: column;
-  gap: 15px;
-  
-}
+
 
 .footer-texto{
   display: flex;
@@ -508,44 +431,8 @@ color: #403833;
   
 }
 
-.texto-footer{
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  flex-direction: column;
-  gap: 15px;
-  
-}
 
-.footer-container{
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  flex-direction: row;
-  gap: 170px;
-  margin: 50px;
-}
 
-.comentario, .comentario-dos, .comentario-tres {
-  border: 2px solid black;
-  border-radius: 20px;
-  padding: 20px; 
-}
-
-.j, .m {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  flex-direction: row;
-}
-
-.foto, .foto-dos, .foto-tres {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  flex-direction: row;
-  gap: 10px;
-}
 
 
 
@@ -568,14 +455,14 @@ color: #403833;
 
 
  /* section comida */
-.comida{
+.contenedor{
   display: flex;
   justify-content: space-between;
   width: 100%;
   padding-right: 20%;
 }
 
-.menu-menu-dos{
+.caja-container-menu{
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
@@ -587,7 +474,7 @@ color: #403833;
   
 }
 
-.menu-texto-uno{
+.texto{
   font-size: 55px;
   font-family: Epilogue;
   font-weight: 100;
@@ -599,7 +486,7 @@ color: #403833;
   
 }
 
-.nombre-menu{
+.caja ol{
   display: flex;
   gap: 25px;
   flex-direction: column;
@@ -635,30 +522,30 @@ color: #403833;
 
 
 /* menu comida */
-.contenedor{
+.menu-container{
   display: flex;
   gap: 100px;
   align-items: center;
   justify-content: center;
 }
 
-.conteiner-comida{
+.container-1{
   display: flex;
   align-items: center;
   flex-direction: column;
   gap: 18px;
 }
 
-.text-comida{
+.caja-comida{
   display: flex;
   flex-direction: column;
   align-items: start;
   gap: 20px;
   border: 1px solid #000;
   padding: 15px;
-  }
+}
 
-.comida-texto-uno{
+.texto-comida{
 display: flex;
 flex-direction: row;
 align-items: center;
@@ -678,21 +565,7 @@ gap: 30px;
   
 }
 
-.comida-conteiner{
-  display: flex;
-  align-items: center;
-  flex-direction: column;
-  gap: 18px;
-}
-
-.comida-conteiner-tres{
-  display: flex;
-  gap: 18px;
-  align-items: center;
-  flex-direction: column;
-}
-
-.boton{
+.button3{
   border-radius: 0;
   border: none;
   padding: 5px 50px; 
@@ -733,135 +606,143 @@ gap: 30px;
 
 @media only screen and (max-width: 768px) {
 
-  .hero{
-    display: flex;
-  }
-  
-  .container {
-    grid-template-columns: 1fr;
-    gap: 10px;
-  }
-
-  .container img {
-    width: 200px;
-    height: 230px;
-  }
-.hero4 p{
-  font-size: 15px;
+.navbar ul{
+  gap: 50px;
 }
 
-.b{
+.hero{
+    gap: 30px;
+ }
+
+.hero{
+  gap: 30px;
+}
+
+.hero img{
+  width: 240px;
+  height: 450px;
+}
+
+.hero1{
+  gap: 45px;
+}
+
+.hero1 img{
+  width: 230px;
+  height: 180px;
+}
+
+.hero2{
   gap: 20px;
 }
-  .hero1 img {
-    width: 250px;
-    height: 510px;
-    justify-content: start;
-  }
 
-  .hero2 img{
-    width: 200px;
-    height: 215px;
-  }
-  
-  .e img{
-width: 365px;
-height: 215px;
-  }
- 
-.botones{
+.hero3{
+  gap: 5px;
+}
+
+.hero3 p{
+  font-size: 10px;
+}
+
+.hero4 img{
+  height: 220px;
+  width: 420px;
+}
+
+.button{
   border-radius: 25px;
   padding: 5px 2px;
   height: 50px;
   width: 170px;
 }
 
+.menu{
+  gap: 10%;
+  padding: 30px;
+}
 
-.menus img{
+
+.menus1 img{
   object-fit: cover;
-  width: 125px;
-  height: 125px;
+  width: 115px;
+  height: 115px;
+} 
+
+.item-text{
+  font-size: 26px;
 }
 
-.about-dos{
+.about{
+  gap: 50px;
+  padding: 50px;
+}
 
+.about-dos img{
   display: flex;
-  gap: 100px;
-   padding: 15px;
-  
+  padding: 15px;
 }
+
+
 
 .about img{
- width: 180px;
- height: 430px;
+ width: 140px;
+ height: 330px;
 
 }
 
-.botone{
+.button2{
   border-radius: 25px;
   padding: 10px 50px; 
 }
 
- .about-about h1{
-   display: flex;
-   align-items: center;
+.about-about h1{
+  display: flex;
+  align-items: center;
   justify-content: start;
   
-}
-
-.text-about{
-  width: 150%;
 }
 
 .from{
   margin: 30px;
 }
-
-
-.comentario-comentario{
+.container-comentario{
   max-width: 100%;
  display: flex;
- gap: 5%;
+ gap: 2%;
  padding: 20px;
 }
 
-.contactos{
-
+.container-contactos{
   display: flex;
   gap: 5%;
   padding: 5%;
 }
 
-.contactos img{
+.container-contactos img{
   width: 400px;
 }
 
-.footer{
-  
+
+.footer-container{
   display: flex;
+  align-items: center;
+  justify-content: center;
   gap: 4%;
 }
 
-.comida{
+
+.contenedor{
   display: flex;
   gap: 5%;
 }
 
-.contenedor{
+.menu-container{
   display: flex;
   gap: 3%;
 }
 
-.menu-menu-dos{
-  padding: 0;
-}
 
-.menu-item{
-  display: flex;
-  gap: 3px;
-}
-
-.menu-menu h1{
+.menu h1{
   font-size: 40px;
   font-family: Epilogue;
   font-weight: 550;
