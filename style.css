@@ -677,17 +677,15 @@ gap: 30px;
   padding: 50px;
 }
 
-.about-dos img{
-  display: flex;
-  padding: 15px;
-}
 
-
-
-.about img{
+.about-img img{
  width: 140px;
  height: 330px;
+gap: 0;
+}
 
+.about-img{
+  gap: 2rem;
 }
 
 .button2{
@@ -695,7 +693,7 @@ gap: 30px;
   padding: 10px 50px; 
 }
 
-.about-about h1{
+.about-texto h1{
   display: flex;
   align-items: center;
   justify-content: start;
