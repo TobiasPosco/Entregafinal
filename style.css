@@ -704,33 +704,31 @@ gap: 0;
 }
 
 .menu-menu h1{
-  font-size: 30px;
+  font-size: 50px;
   font-family: Epilogue;
   font-weight: 550;
   word-wrap: break-word;
   color: white;
   background: rgb(64,56,51);
   background: linear-gradient(90deg, rgba(64,56,51,1) 0%, rgba(64,56,51,1) 0%);
-  padding: 10px 60px;
+  padding: 10px 110px;
 }
 
 .item-text{
-  font-size: 20px;
+  font-size: 22px;
 }
 
 
 
 .about{
   padding: 20px;
-  align-items: center;
-  justify-content: center;
-  display: flex;
+  gap: 0;
+ 
 }
 
  .about-texto {
   display: flex;
   gap: 30px;
-
 } 
 
 .about img{
@@ -743,12 +741,6 @@ gap: 0;
   font-size: 15px;
 }
 
- .about-texto h1{
-   display: flex;
-   align-items: center;
-   justify-content: start;
-   font-size: 40px;
- }
 
 .from{
   margin: 30px;
