@@ -50,7 +50,13 @@ color: #403833;
   align-items: center;
   justify-content: start; 
   padding: 30px;
-  gap: 80px;
+  gap: 100px;
+}
+
+
+.hero img{
+  width: 37%;
+  height: 20%;
 }
 
 .hero1{
@@ -58,7 +64,7 @@ color: #403833;
   flex-direction: column;
    align-items: center;
   justify-content: center; 
-  gap: 50px;
+  gap: 100px;
 }
 
 .hero2 {
@@ -69,8 +75,8 @@ color: #403833;
 }
 
 .hero2 img{
-  width: 400px;
-  height: 400px;
+  width: 50%;
+  height: 40%px;
 }
 
 .hero3 {
@@ -80,8 +86,8 @@ color: #403833;
 
 
 .hero4 img{
-  width: 700px;
-  height: 330px;
+  width: 100%;
+  height: 65%;
 }
 
 .button{
@@ -153,7 +159,7 @@ color: #403833;
   color: white;
   background: rgb(64,56,51);
   background: linear-gradient(90deg, rgba(64,56,51,1) 0%, rgba(64,56,51,1) 0%);
-  padding: 15px 120px; 
+  padding: 15px 100px; 
 }
 
 .item-text {
@@ -213,12 +219,13 @@ color: #403833;
 .about-img img{
   width: 250px;
   height: 400px;
+  
 }
 
 .about-img{
   display: flex;
   flex-direction: row;
-  gap: 25%;
+  gap: 10%;
 }
 
 
@@ -277,7 +284,7 @@ color: #403833;
   display: flex;
   flex-direction: row;
   align-items: center;
-  gap: 300px;
+  gap: 200px;
   padding: 100px;
 }
 
