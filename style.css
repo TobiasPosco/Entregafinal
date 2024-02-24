@@ -507,15 +507,16 @@ gap: 30px;
 }
 
 .menu{
-  gap: 10%;
-  padding: 30px;
+  gap: 0;
+  padding: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 
 .menus1 img{
-  object-fit: cover;
-  width: 115px;
-  height: 115px;
+ display: none;
 } 
 
 .item-text{
@@ -704,14 +705,14 @@ gap: 0;
 }
 
 .menu-menu h1{
-  font-size: 50px;
+  font-size: 45px;
   font-family: Epilogue;
   font-weight: 550;
   word-wrap: break-word;
   color: white;
   background: rgb(64,56,51);
   background: linear-gradient(90deg, rgba(64,56,51,1) 0%, rgba(64,56,51,1) 0%);
-  padding: 10px 110px;
+  padding: 5px 80px;
 }
 
 .item-text{
@@ -882,7 +883,7 @@ flex-direction: column;
   color: white;
   background: rgb(64,56,51);
   background: linear-gradient(90deg, rgba(64,56,51,1) 0%, rgba(64,56,51,1) 0%);
-  padding: 3px 30px;
+  padding: 3px 50px;
   }
 
 
