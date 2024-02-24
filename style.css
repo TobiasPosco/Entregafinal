@@ -607,7 +607,7 @@ gap: 0;
 
 
 /* Estilos para pantallas con un ancho máximo de 480px (dispositivos móviles) */
-@media only screen and (max-width: 390px) {
+@media only screen and (max-width: 420px) {
 
 .navbar{
   display: flex;
