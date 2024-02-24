@@ -650,7 +650,7 @@ gap: 0;
 
   .hero{
     display: flex;
-    gap: 15px;
+    gap: 40px;
     padding: 10px;
     justify-content: center;
     align-items: center;
@@ -660,6 +660,9 @@ gap: 0;
     width: 100px;
     height: 200px;
   }
+.hero1{
+  gap: 55px;
+}
 
   .hero2 img{
     display: none;
